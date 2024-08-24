@@ -61,10 +61,13 @@ $response = $cpanel->post('/json-api/createacct', [
 echo $response;
 ```
 
-**check out the test for how to use**
+**check out the test for more examples on various use cases**
 
 - [Test](./tests/CpanelTest.php)
 
+```
+vendor/bin/phpunit
+```
 **Handling Errors**
 
 Both get and post methods throw exceptions if the cURL request fails. You can handle these exceptions like this:
