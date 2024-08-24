@@ -122,7 +122,7 @@ class Cpanel
      * 
      * @param CurlHandle instance of the cURL
      */
-    private function disconnect(CurlHandle $curl)
+    private function disconnect($curl)
     {
         // Clean up
         curl_close($curl);

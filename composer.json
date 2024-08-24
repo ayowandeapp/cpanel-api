@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ayowande\\Cpanel\\": "src/"
+            "ayowande\\Cpanel\\": "src/"
         }
     },
     "authors": [
@@ -17,5 +17,8 @@
             "email": "ayooluwa71@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
 }
