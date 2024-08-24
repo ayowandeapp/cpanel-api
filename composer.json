@@ -1,0 +1,21 @@
+{
+    "name": "ayowande/cpanel-api",
+    "description": "A lightweight PHP client for interacting with cPanel's API, providing methods for common tasks like managing domains, emails, and server resources.",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ayowande\\Cpanel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ayowande Oluwatosin",
+            "email": "ayooluwa71@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
