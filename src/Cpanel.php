@@ -1,6 +1,6 @@
 <?php
 
-// namespace App\Actions;
+namespace ayowande\Cpanel;
 
 /**
  * Class Cpanal
